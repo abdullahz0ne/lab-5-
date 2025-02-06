@@ -20,11 +20,16 @@ class Program
         double num1 = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter second number: ");
-        double num2 = Convert.ToDouble(Console.ReadLine());
+        double num2 = Convert.ToDouble(Console.ReadLine())
+        Features
+        double result = num1 * num2;
 
+        Console.WriteLine($"The multiplication of {num1} and {num2} is: {result}");
+    }
+}
         double sum = num1 + num2;
 
         Console.WriteLine($"The sum of {num1} and {num2} is: {sum}");
     }
 }
-``
+ models
